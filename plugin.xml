@@ -1,22 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License.
--->
+<?xml version="1.0" encoding="UTF-8"?>headers
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="nat-device-network"
@@ -24,31 +6,26 @@
     <name>nat-device-network</name>
     <description></description>
     <license>Apache 2.0</license>
-    <keywords>weex,plugin,device,network</keywords>
-    <repo>https://*.git</repo>
-    <issue>https://*</issue>
+    <keywords>weex,plugin,nat,natjs,device,network</keywords>
+    <repo>https://github.com/Natjs/weex-nat-device-network.git</repo>
+    <issue>https://github.com/Natjs/weex-nat-device-network/issues</issue>
+    
      <!-- ios -->
      <platform name="ios">
          <framework src="NatDeviceNetwork" type="podspec" spec="" />
          <config-file target="WeexpluginConfig.xml" parent="/*">
              <feature name="WXTestModule">
                  <param name="category" value="module" />
-                 <param name="ios-package" value="NatWeexDeviceNetwork" />
+                 <param name="ios-package" value="WeexNatDeviceNetwork" />
                  <param name="api" value="nat/device/network" />
              </feature>
          </config-file>
-         <header-file src="ios/NatWeexDeviceNetwork.h"/>
-         <source-file src="ios/NatWeexDeviceNetwork.m"/>
+         <header-file src="ios/WeexNatDeviceNetwork.h"/>
+         <source-file src="ios/WeexNatDeviceNetwork.m"/>
      </platform>
 
      <!-- android -->
      <platform name="android">
-
-
      </platform>
-
-
-
-
 
 </plugin>

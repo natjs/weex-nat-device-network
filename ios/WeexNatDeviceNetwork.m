@@ -1,15 +1,15 @@
 //
-//  NatWeexDeviceNetwork.m
+//  WeexNatDeviceNetwork.m
 //
 //  Created by huangyake on 17/1/7.
 //  Copyright © 2017 Nat. All rights reserved.
 //
 
 
-#import "NatWeexDeviceNetwork.h"
+#import "WeexNatDeviceNetwork.h"
 #import "NatDeviceNetwork.h"
 
-@implementation NatWeexDeviceNetwork
+@implementation WeexNatDeviceNetwork
 WX_EXPORT_METHOD(@selector(status:))
 
 - (void)status:(WXModuleCallback)callback{
