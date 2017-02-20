@@ -1,17 +1,19 @@
 {
-  "name": "nat-device-network",
-  "version": "0.0.0",
-  "description": "Weex Plugin-nat-device-network",
+  "name": "weex-nat-device-network",
+  "version": "0.0.1",
+  "description": "Nat.js module: Device Network",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "Nat",
+    "Device",
+    "Network",
     "Weex",
     "Plugin",
-    "commponent",
     "module",
-    "handle",
-    "weexpack"
+    "handle"
   ],
-  "author": ""
+  "author": "Acathur",
+  "license": "MIT"
 }
