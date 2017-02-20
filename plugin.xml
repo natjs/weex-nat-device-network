@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>headers
+<?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="nat-device-network"
@@ -26,6 +26,23 @@
 
      <!-- android -->
      <platform name="android">
+        <config-file target="config.xml" parent="/*">
+             <feature name="DeviceNetworkModule">
+                 <param name="category" value="module" />
+                 <param name="android-package" value="com.nat.weex.DeviceNetworkModule" />
+                 <param name="api" value="nat/device/network" />
+             </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+             <uses-permission android:name="android.permission.INTERNET" />
+        </config-file>
+
+        <source-file
+             src="android/DeviceNetworkModule.java"
+            target-dir="src/com/alibaba/weex/nat/DeviceNetworkModule.java" />
+
+        <framework src="com.nat:device-network:1.0.2" />
      </platform>
 
 </plugin>
