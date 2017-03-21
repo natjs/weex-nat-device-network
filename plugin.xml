@@ -2,13 +2,13 @@
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="nat-device-network"
-    version="0.1.0">
+    version="0.1.2">
     <name>nat-device-network</name>
-    <description></description>
+    <description>Nat.js module: Device Network</description>
     <license>Apache 2.0</license>
     <keywords>weex,plugin,nat,natjs,device,network</keywords>
-    <repo>https://github.com/Natjs/weex-nat-device-network.git</repo>
-    <issue>https://github.com/Natjs/weex-nat-device-network/issues</issue>
+    <repo>https://github.com/natjs/weex-nat-device-network.git</repo>
+    <issue>https://github.com/natjs/weex-nat-device-network/issues</issue>
     
      <!-- ios -->
      <platform name="ios">
