@@ -1,19 +1,18 @@
 {
-  "name": "nat-device-network",
-  "version": "0.1.2",
-  "description": "Nat.js module: Device Network",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Nat",
-    "Device",
-    "Network",
-    "Weex",
-    "Plugin",
-    "module",
-    "handle"
-  ],
-  "author": "Acathur",
-  "license": "MIT"
+    "version": "0.1.4",
+    "platform": [
+        "ios",
+        "android"
+    ],
+    "description": "Nat.js module: Device Network",
+    "keywords": [
+        "weex",
+        "plugin",
+        "nat",
+        "natjs",
+        "device",
+        "network"
+    ],
+    "license": "Apache 2.0",
+    "name": "nat-device-network"
 }
