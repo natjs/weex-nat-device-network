@@ -9,12 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <WeexSDK/WeexSDK.h>
 
-
 @protocol WeexNatDeviceNetworkPro <WXModuleProtocol>
 
 - (void)status:(WXModuleCallback)callback;
+
 @end
 
 @interface WeexNatDeviceNetwork : NSObject<WeexNatDeviceNetworkPro>
-
 @end

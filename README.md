@@ -1,6 +1,6 @@
 # nat-device-network
 
-- [Documentation](http://natjs.com/#/#network)
+- [Documentation](http://natjs.com/#/reference/device/network)
 - [Github](https://github.com/natjs/weex-nat-device-network)
 
 ## Installation
@@ -14,11 +14,11 @@ npm install natjs --save
 
 ## Usage
 
-Use in weex file (.we)
+Use in weex project (`.vue`/`.we`)
 
 ```html
 <script>
-import 'Nat' from 'natjs'
+import Nat from 'natjs'
 
 // get network status
 Nat.network.status((err, ret) => {

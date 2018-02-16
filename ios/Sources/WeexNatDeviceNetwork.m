@@ -7,25 +7,25 @@
 
 
 #import "WeexNatDeviceNetwork.h"
-#import "NatDeviceNetwork.h"
+#import <WeexPluginLoader/WeexPluginLoader.h>
+#import <NatDeviceNetwork/NatDeviceNetwork.h>
 
 @implementation WeexNatDeviceNetwork
 @synthesize weexInstance;
+
+WX_PlUGIN_EXPORT_MODULE(nat/device/network, WeexNatDeviceNetwork)
 WX_EXPORT_METHOD(@selector(status:))
 
 - (void)status:(WXModuleCallback)callback{
     [[NatDeviceNetwork singletonManger] status:^(id error, id result) {
-        if (error) {
-            if (callback) {
+        if (callback) {
+            if (error) {
                 callback(error);
-            }
-        }else{
-            if (callback) {
+            } else {
                 callback(result);
             }
         }
     }];
-
 }
 
 @end
