@@ -1,6 +1,6 @@
 {
   "name": "nat-device-network",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha.1",
   "main": "./js/build/main.js",
   "description": "Nat.js module for weex: Device Network",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "type": "maven",
     "groupId": "com.instapp.nat",
     "name": "weex-plugin-device-network",
-    "version": "1.0.0-alpha"
+    "version": "1.0.0-alpha.1"
   },
   "keywords": [
     "nat",
